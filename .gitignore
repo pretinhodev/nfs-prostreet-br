@@ -1,0 +1,24 @@
+# Arquivos ORIGINAIS do jogo (protegidos por copyright - NAO distribuir)
+nfs.exe
+*.bun
+*.bmp
+*.wav
+*.mp3
+*.big
+*.lzc
+*.dat
+
+# Mounts/imagens de disco
+*.iso
+*.img
+*.cue
+*.mdf
+*.mds
+*.rar
+*.zip
+*.7z
+*.torrent
+
+# Sistema
+Thumbs.db
+Desktop.ini
