@@ -225,4 +225,3 @@ Para habilitar a câmera, use `-EnableCamera` no script ou mude `Enable = 1` na 
 ---
 
 Feito para facilitar a instalação da versão brasileira do NFS ProStreet.
-Divirta-se nas pistas! 🏎️💨
