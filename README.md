@@ -202,6 +202,7 @@ Configurações aplicadas (prontas para usar / reaplicadas pelo `setup-config.ps
 
 - **`[LANGUAGE] Language = Mexican Spanish`** — tradução PT-BR
 - **`[MISC] DisableMotionBlur = 1`** — desativado para performance
+- **`[MISC] CustomUserFilesDirectoryInGameDir = save`** — **save local** em `<jogo>\save\` (evita o save em `Documents`/OneDrive, que o jogo de 2007 não lê/grava direito e pode **crashar ao criar perfil**)
 - **`[GRAPHICS] ConsoleGamma = 1`** — curva de gamma estilo console (cores mais contrastadas)
 - **`[CAMERA] Enable = 0`** — câmera com stick/mouse **desativada** (padrão sem conflito no analógico direito)
 - **`FramerateUncap = 1`** — desbloqueio de FPS (v1.1)

@@ -103,6 +103,9 @@ Set-IniKey $fusIni 'MISC' 'DisableMotionBlur' '1'
 Set-IniKey $fusIni 'GRAPHICS' 'ConsoleGamma' '1'
 if ($EnableCamera) { Set-IniKey $fusIni 'CAMERA' 'Enable' '1' }
 else { Set-IniKey $fusIni 'CAMERA' 'Enable' '0' }
+# Save local (evita o problema do save em Documents/OneDrive, que o jogo de 2007
+# nao le corretamente e pode crashar ao criar perfil)
+Set-IniKey $fusIni 'MISC' 'CustomUserFilesDirectoryInGameDir' 'save'
 
 # ---------------------------------------------------------------------------
 # 4) Extra Options
