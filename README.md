@@ -205,8 +205,9 @@ Configurações aplicadas (prontas para usar / reaplicadas pelo `setup-config.ps
 - **`[GRAPHICS] ConsoleGamma = 1`** — curva de gamma estilo console (cores mais contrastadas)
 - **`[CAMERA] Enable = 0`** — câmera com stick/mouse **desativada** (padrão sem conflito no analógico direito)
 - **`FramerateUncap = 1`** — desbloqueio de FPS (v1.1)
-- **Extra Options**: `ShowSpecialVinyls`, `RemoveTopSpeedLimiter` e `UnlockDLC` em **`0`**
-  (mantém o gameplay ORIGINAL do v1.1)
+- **Extra Options**: `UnlockAllThings`, `UnlockDLC`, `ShowAllCarsInFE`, `RemoveTopSpeedLimiter`
+  e `ShowSpecialVinyls` ligados (**tudo liberado**: conteúdo DLC, todos os carros no Car Lot
+  para saves novos, sem limitador de velocidade e vinis especiais na loja)
 
 Para habilitar a câmera, use `-EnableCamera` no script ou mude `Enable = 1` na seção
 `[CAMERA]` do `Mods/FusionFix/NFSProStreet.FusionFix.ini`.
