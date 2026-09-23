@@ -4,7 +4,7 @@ Repositório de apoio para montar sua instalação do **Need for Speed: ProStree
 com a **tradução brasileira (GameVicio)** e os **mods de correção** mais usados
 (Fusion Fix, Extra Options, XtendedInput e HD Reflections).
 
-> ⚠️ **Aviso legal**
+> **Aviso legal**
 > Este repositório **NÃO** contém os arquivos do jogo (executável, dados de mídia etc.),
 > que são de propriedade da **EA Games / Black Box**.
 > Ele contém apenas **tradução de fã**, **arquivos de mods** e **links**.
@@ -12,7 +12,7 @@ com a **tradução brasileira (GameVicio)** e os **mods de correção** mais usa
 
 ---
 
-> ⚙️ **IMPORTANTE — ajuste para o seu PC**
+> **IMPORTANTE — ajuste para o seu PC**
 > As configurações deste repositório (`.ini` em `Mods/`) são um ponto de partida.
 > **Depois de instalar o jogo, rode o `setup-config.ps1`** (veja abaixo) — ele copia os mods
 > para a sua instalação e ajusta o gráfico. Não use os `.ini` direto como estão sem rodar o script.
@@ -24,7 +24,7 @@ com a **tradução brasileira (GameVicio)** e os **mods de correção** mais usa
 
 ---
 
-## 📦 O que tem neste repositório
+## O que tem neste repositório
 
 | Pasta | Conteúdo |
 |-------|----------|
@@ -41,7 +41,7 @@ Scripts:
 
 ---
 
-## 🔗 Links úteis
+## Links úteis
 
 ### Repack / jogo
 - **Repack R.G. Mechanics** (v1.1 crackeada/ViTALiTY, com patch LAN/DLC e sem SecuROM):
@@ -74,9 +74,9 @@ Scripts:
 
 ---
 
-## 🛠️ Como instalar
+## Como instalar
 
-> ⚡ **Recomendado:** use o `setup-config.ps1` (seção **Configurador automático** abaixo).
+> **Recomendado:** use o `setup-config.ps1` (seção **Configurador automático** abaixo).
 > Ele copia os mods **e** aplica os ajustes. Os passos manuais são só referência.
 
 ### 1. Instale o jogo
@@ -89,7 +89,7 @@ Scripts:
 > com a tradução. Este repo foi feito a partir da versão **1.1** (patch LAN/DLC aplicado).
 
 ### 2. Aplique a tradução (PT-BR) — ANTES dos mods
-> ⚠️ A tradução deve ser aplicada **antes** dos mods (ambos mexem em `LANGUAGES`/`scripts`/`.ini`);
+> A tradução deve ser aplicada **antes** dos mods (ambos mexem em `LANGUAGES`/`scripts`/`.ini`);
 > aplicá-la depois pode sobrescrever arquivos dos mods.
 
 1. Copie o conteúdo de `Traducao-GameVicio\` → pasta `LANGUAGES\` do jogo, **sobrescrevendo**:
@@ -109,7 +109,7 @@ O `dinput8.dll` (ASI Loader) é o que carrega os `.asi`:
 - Copie `XtendedInputButtons.tpk` → pasta `GLOBAL/` (sobrescrever).
 - Copie `EventReference.txt` → raiz da instalação.
 
-> ⚙️ Rodando o `setup-config.ps1` tudo isso é feito automaticamente + ajustes de gráfico.
+> Rodando o `setup-config.ps1` tudo isso é feito automaticamente + ajustes de gráfico.
 
 ### 4. Mod do controle (gamepad) — NFS XtendedInput
 O ProStreet 2007 só entende controles **DirectInput** e não enxerga controles
@@ -117,13 +117,13 @@ Xbox/XInput (nem a maioria dos controles modernos). O **NFS XtendedInput**
 adiciona suporte **XInput nativo** + ícones de botão + tudo rebindável.
 A instalação é só copiar os arquivos de `Mods/XtendedInput/` (via `setup-config.ps1` ou manual).
 
-> ⚠️ No menu `Controls` do jogo o mod **desabilita a tela (crasha)** — **NÃO entre nele**.
+> No menu `Controls` do jogo o mod **desabilita a tela (crasha)** — **NÃO entre nele**.
 > A configuração é feita pelos `.ini`:
 > - Opções gerais: `scripts\NFS_XtendedInput.ini` (deadzone, ícones, etc.)
 > - Mapeamento de botões (por save): `scripts\XtendedInputMaps\<nome do save>\NFS_XtendedInput.usermap.ini`
 > - Referência de eventos: `EventReference.txt`
 >
-> 🔧 O mapeamento de botões é **por save (perfil)**, então cada jogador rebinda o seu.
+> O mapeamento de botões é **por save (perfil)**, então cada jogador rebinda o seu.
 > O `setup-config.ps1` instala o mod mas **não** copia o mapeamento de ninguém.
 
 Se os botões não responderem, rode o jogo **como Administrador** ou mova a pasta
@@ -135,7 +135,7 @@ ou **reWASD** (mapeador pago).
 
 ---
 
-## 🤖 Configurador automático (setup-config.ps1)
+## Configurador automático (setup-config.ps1)
 
 O **`setup-config.ps1`** copia os mods para a pasta do jogo e aplica os ajustes
 do `NFSProStreet.FusionFix.ini` — sem copiar arquivos na mão.
@@ -170,7 +170,7 @@ powershell -ExecutionPolicy Bypass -File setup-config.ps1 -GamePath "C:\Jogos\NF
 
 ---
 
-## 🔎 Verificador de atualizações (check-updates.ps1)
+## Verificador de atualizações (check-updates.ps1)
 
 O **`check-updates.ps1`** **apenas verifica** (não baixa nem altera nada) e compara
 com o que está instalado em `scripts/`:
@@ -187,7 +187,7 @@ powershell -ExecutionPolicy Bypass -File check-updates.ps1
 
 ---
 
-## 🎮 Requisitos dos mods
+## Requisitos dos mods
 
 - **Fusion Fix / Extra Options ProStreet** — usa o jogo **v1.1** (`nfs.exe`, crack ViTALiTY).
 - **Widescreen Fix** — recomendado para monitores 16:9 / 21:9 / ultrawide.
@@ -196,7 +196,7 @@ powershell -ExecutionPolicy Bypass -File check-updates.ps1
 
 ---
 
-## ⚙️ Configurações atuais do FusionFix
+## Configurações atuais do FusionFix
 
 Configurações aplicadas (prontas para usar / reaplicadas pelo `setup-config.ps1`):
 
@@ -215,7 +215,7 @@ Para habilitar a câmera, use `-EnableCamera` no script ou mude `Enable = 1` na 
 
 ---
 
-## 📄 Licenças
+## Licenças
 
 - **Fusion Fix / Widescreen Fix**: repositório de ThirteenAG (consulte a licença do pack).
 - **Extra Options**: GNU GPLv3 (© ExOpts Team).
